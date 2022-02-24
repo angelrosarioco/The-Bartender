@@ -7,18 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		465C289627B834B9009455B6 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C289527B834B9009455B6 /* DashboardView.swift */; };
+		465C289C27B8EDAE009455B6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C289B27B8EDAE009455B6 /* Extension.swift */; };
+		465C28A027B915A0009455B6 /* DrinkCellCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C289F27B915A0009455B6 /* DrinkCellCarousel.swift */; };
+		465C28A227B91743009455B6 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C28A127B91743009455B6 /* SideMenuView.swift */; };
+		465C28A427B91764009455B6 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C28A327B91764009455B6 /* SideMenuViewModel.swift */; };
+		465C28A627B91A95009455B6 /* SideMenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C28A527B91A95009455B6 /* SideMenuRow.swift */; };
+		465C28A827BA26EA009455B6 /* SearchDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C28A727BA26EA009455B6 /* SearchDrinkView.swift */; };
+		465C28B027BBA03F009455B6 /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C28AF27BBA03F009455B6 /* IngredientView.swift */; };
+		465C28B227BBA123009455B6 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C28B127BBA123009455B6 /* ItemCell.swift */; };
+		465C28B427BBA41F009455B6 /* IngredientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C28B327BBA41F009455B6 /* IngredientModel.swift */; };
+		465C28B827BBAFBE009455B6 /* DrinksListFromIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465C28B727BBAFBE009455B6 /* DrinksListFromIngredientView.swift */; };
+		4661994727C024D4001490B6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4661994627C024D4001490B6 /* Kingfisher */; };
+		4661994927C0250A001490B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4661994827C0250A001490B6 /* GoogleService-Info.plist */; };
+		4661994B27C03765001490B6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661994A27C03765001490B6 /* LoginView.swift */; };
+		4661994D27C03893001490B6 /* RoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661994C27C03893001490B6 /* RoundedShape.swift */; };
+		4661994F27C03E06001490B6 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661994E27C03E06001490B6 /* AuthTextField.swift */; };
+		4661995327C0ECD3001490B6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661995227C0ECD2001490B6 /* RegisterView.swift */; };
+		4661995527C1EB18001490B6 /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661995427C1EB17001490B6 /* WelcomePageView.swift */; };
+		4661995727C1F172001490B6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661995627C1F172001490B6 /* WelcomeView.swift */; };
+		4661995927C1F2BE001490B6 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661995827C1F2BE001490B6 /* RecipeView.swift */; };
+		4661995B27C1F6DB001490B6 /* EnjoyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661995A27C1F6DA001490B6 /* EnjoyView.swift */; };
+		4661995D27C203BC001490B6 /* LogoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661995C27C203BB001490B6 /* LogoHeaderView.swift */; };
+		4661996127C20FC4001490B6 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661996027C20FC4001490B6 /* UserService.swift */; };
+		4661996327C211B2001490B6 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661996227C211B1001490B6 /* AuthViewModel.swift */; };
+		4661996527C4CAF8001490B6 /* ReviewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661996427C4CAF7001490B6 /* ReviewList.swift */; };
+		4661996727C4DCCE001490B6 /* RegisterSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4661996627C4DCCE001490B6 /* RegisterSheetView.swift */; };
+		46A790D627C64109003C654A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A790D527C64109003C654A /* UserModel.swift */; };
+		46A790D827C64537003C654A /* AddReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A790D727C64537003C654A /* AddReviewView.swift */; };
+		46A790DA27C64671003C654A /* TextArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A790D927C64671003C654A /* TextArea.swift */; };
+		46A790DC27C64867003C654A /* ReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A790DB27C64867003C654A /* ReviewService.swift */; };
+		46A790DE27C64B27003C654A /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A790DD27C64B27003C654A /* ReviewViewModel.swift */; };
+		46A790E027C64B64003C654A /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A790DF27C64B64003C654A /* ReviewModel.swift */; };
 		46AC342D27B7A69A0023AF71 /* The_BartenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC342C27B7A69A0023AF71 /* The_BartenderApp.swift */; };
 		46AC342F27B7A69A0023AF71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC342E27B7A69A0023AF71 /* ContentView.swift */; };
 		46AC343127B7A69D0023AF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AC343027B7A69D0023AF71 /* Assets.xcassets */; };
 		46AC343427B7A69D0023AF71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AC343327B7A69D0023AF71 /* Preview Assets.xcassets */; };
+		46AC343B27B7A6E60023AF71 /* DrinkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC343A27B7A6E60023AF71 /* DrinkDetailView.swift */; };
+		46AC343D27B7B4520023AF71 /* DrinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC343C27B7B4520023AF71 /* DrinkViewModel.swift */; };
+		46AC344327B7C2890023AF71 /* FilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC344227B7C2890023AF71 /* FilterModel.swift */; };
+		46AC344527B7CF910023AF71 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AC344427B7CF910023AF71 /* HeaderView.swift */; };
+		46CA1A1827B7D73500D51D3F /* DrinkDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA1A1727B7D73500D51D3F /* DrinkDetailModel.swift */; };
+		46CA1A1A27B7D92E00D51D3F /* DrinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA1A1927B7D92E00D51D3F /* DrinkService.swift */; };
+		46CA1A1D27B7EAED00D51D3F /* IngredientSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA1A1C27B7EAED00D51D3F /* IngredientSectionView.swift */; };
+		46CA1A1F27B7EB1400D51D3F /* DrinkImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA1A1E27B7EB1400D51D3F /* DrinkImageView.swift */; };
+		46CA1A2127B7EB3300D51D3F /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA1A2027B7EB3300D51D3F /* InstructionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		465C289527B834B9009455B6 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		465C289B27B8EDAE009455B6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		465C289F27B915A0009455B6 /* DrinkCellCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCellCarousel.swift; sourceTree = "<group>"; };
+		465C28A127B91743009455B6 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		465C28A327B91764009455B6 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		465C28A527B91A95009455B6 /* SideMenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRow.swift; sourceTree = "<group>"; };
+		465C28A727BA26EA009455B6 /* SearchDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDrinkView.swift; sourceTree = "<group>"; };
+		465C28AF27BBA03F009455B6 /* IngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
+		465C28B127BBA123009455B6 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		465C28B327BBA41F009455B6 /* IngredientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientModel.swift; sourceTree = "<group>"; };
+		465C28B727BBAFBE009455B6 /* DrinksListFromIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksListFromIngredientView.swift; sourceTree = "<group>"; };
+		4661994827C0250A001490B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4661994A27C03765001490B6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4661994C27C03893001490B6 /* RoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShape.swift; sourceTree = "<group>"; };
+		4661994E27C03E06001490B6 /* AuthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
+		4661995227C0ECD2001490B6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4661995427C1EB17001490B6 /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
+		4661995627C1F172001490B6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4661995827C1F2BE001490B6 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		4661995A27C1F6DA001490B6 /* EnjoyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjoyView.swift; sourceTree = "<group>"; };
+		4661995C27C203BB001490B6 /* LogoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoHeaderView.swift; sourceTree = "<group>"; };
+		4661996027C20FC4001490B6 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		4661996227C211B1001490B6 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		4661996427C4CAF7001490B6 /* ReviewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewList.swift; sourceTree = "<group>"; };
+		4661996627C4DCCE001490B6 /* RegisterSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSheetView.swift; sourceTree = "<group>"; };
+		46A790D527C64109003C654A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		46A790D727C64537003C654A /* AddReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReviewView.swift; sourceTree = "<group>"; };
+		46A790D927C64671003C654A /* TextArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextArea.swift; sourceTree = "<group>"; };
+		46A790DB27C64867003C654A /* ReviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewService.swift; sourceTree = "<group>"; };
+		46A790DD27C64B27003C654A /* ReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
+		46A790DF27C64B64003C654A /* ReviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		46A790E127C72929003C654A /* The-Bartender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "The-Bartender-Info.plist"; sourceTree = SOURCE_ROOT; };
 		46AC342927B7A69A0023AF71 /* The Bartender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Bartender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46AC342C27B7A69A0023AF71 /* The_BartenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_BartenderApp.swift; sourceTree = "<group>"; };
 		46AC342E27B7A69A0023AF71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46AC343027B7A69D0023AF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46AC343327B7A69D0023AF71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46AC343A27B7A6E60023AF71 /* DrinkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailView.swift; sourceTree = "<group>"; };
+		46AC343C27B7B4520023AF71 /* DrinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewModel.swift; sourceTree = "<group>"; };
+		46AC344227B7C2890023AF71 /* FilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModel.swift; sourceTree = "<group>"; };
+		46AC344427B7CF910023AF71 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		46CA1A1727B7D73500D51D3F /* DrinkDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailModel.swift; sourceTree = "<group>"; };
+		46CA1A1927B7D92E00D51D3F /* DrinkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkService.swift; sourceTree = "<group>"; };
+		46CA1A1C27B7EAED00D51D3F /* IngredientSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientSectionView.swift; sourceTree = "<group>"; };
+		46CA1A1E27B7EB1400D51D3F /* DrinkImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkImageView.swift; sourceTree = "<group>"; };
+		46CA1A2027B7EB3300D51D3F /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +108,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4661994727C024D4001490B6 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4661995E27C20BC7001490B6 /* Authentication Views */ = {
+			isa = PBXGroup;
+			children = (
+				4661994A27C03765001490B6 /* LoginView.swift */,
+				4661995227C0ECD2001490B6 /* RegisterView.swift */,
+			);
+			path = "Authentication Views";
+			sourceTree = "<group>";
+		};
+		4661995F27C20BF6001490B6 /* Onboarding Views */ = {
+			isa = PBXGroup;
+			children = (
+				4661995427C1EB17001490B6 /* WelcomePageView.swift */,
+				4661995627C1F172001490B6 /* WelcomeView.swift */,
+				4661995827C1F2BE001490B6 /* RecipeView.swift */,
+				4661995A27C1F6DA001490B6 /* EnjoyView.swift */,
+			);
+			path = "Onboarding Views";
+			sourceTree = "<group>";
+		};
 		46AC342027B7A69A0023AF71 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +154,17 @@
 		46AC342B27B7A69A0023AF71 /* The Bartender */ = {
 			isa = PBXGroup;
 			children = (
+				46A790E127C72929003C654A /* The-Bartender-Info.plist */,
 				46AC342C27B7A69A0023AF71 /* The_BartenderApp.swift */,
 				46AC342E27B7A69A0023AF71 /* ContentView.swift */,
+				46CA1A2327B7EB5400D51D3F /* Services */,
+				46CA1A2227B7EB4300D51D3F /* Components */,
+				46AC344627B7D31A0023AF71 /* Models */,
+				46CA1A1B27B7EAC700D51D3F /* Views */,
+				46CA1A2427B7EB6000D51D3F /* ViewModels */,
 				46AC343027B7A69D0023AF71 /* Assets.xcassets */,
+				465C289B27B8EDAE009455B6 /* Extension.swift */,
+				4661994827C0250A001490B6 /* GoogleService-Info.plist */,
 				46AC343227B7A69D0023AF71 /* Preview Content */,
 			);
 			path = "The Bartender";
@@ -65,6 +176,75 @@
 				46AC343327B7A69D0023AF71 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46AC344627B7D31A0023AF71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46AC344227B7C2890023AF71 /* FilterModel.swift */,
+				46A790DF27C64B64003C654A /* ReviewModel.swift */,
+				46A790D527C64109003C654A /* UserModel.swift */,
+				465C28B327BBA41F009455B6 /* IngredientModel.swift */,
+				46CA1A1727B7D73500D51D3F /* DrinkDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46CA1A1B27B7EAC700D51D3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4661995E27C20BC7001490B6 /* Authentication Views */,
+				4661995F27C20BF6001490B6 /* Onboarding Views */,
+				465C289527B834B9009455B6 /* DashboardView.swift */,
+				465C28AF27BBA03F009455B6 /* IngredientView.swift */,
+				46A790D727C64537003C654A /* AddReviewView.swift */,
+				465C28B727BBAFBE009455B6 /* DrinksListFromIngredientView.swift */,
+				46AC343A27B7A6E60023AF71 /* DrinkDetailView.swift */,
+				465C28A127B91743009455B6 /* SideMenuView.swift */,
+				465C28A727BA26EA009455B6 /* SearchDrinkView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46CA1A2227B7EB4300D51D3F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				465C28B127BBA123009455B6 /* ItemCell.swift */,
+				465C289F27B915A0009455B6 /* DrinkCellCarousel.swift */,
+				46CA1A1E27B7EB1400D51D3F /* DrinkImageView.swift */,
+				46A790D927C64671003C654A /* TextArea.swift */,
+				4661994C27C03893001490B6 /* RoundedShape.swift */,
+				4661996627C4DCCE001490B6 /* RegisterSheetView.swift */,
+				46AC344427B7CF910023AF71 /* HeaderView.swift */,
+				4661996427C4CAF7001490B6 /* ReviewList.swift */,
+				4661995C27C203BB001490B6 /* LogoHeaderView.swift */,
+				46CA1A1C27B7EAED00D51D3F /* IngredientSectionView.swift */,
+				46CA1A2027B7EB3300D51D3F /* InstructionView.swift */,
+				465C28A527B91A95009455B6 /* SideMenuRow.swift */,
+				4661994E27C03E06001490B6 /* AuthTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		46CA1A2327B7EB5400D51D3F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				46CA1A1927B7D92E00D51D3F /* DrinkService.swift */,
+				4661996027C20FC4001490B6 /* UserService.swift */,
+				46A790DB27C64867003C654A /* ReviewService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		46CA1A2427B7EB6000D51D3F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4661996227C211B1001490B6 /* AuthViewModel.swift */,
+				46AC343C27B7B4520023AF71 /* DrinkViewModel.swift */,
+				46A790DD27C64B27003C654A /* ReviewViewModel.swift */,
+				465C28A327B91764009455B6 /* SideMenuViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +263,9 @@
 			dependencies = (
 			);
 			name = "The Bartender";
+			packageProductDependencies = (
+				4661994627C024D4001490B6 /* Kingfisher */,
+			);
 			productName = "The Bartender";
 			productReference = 46AC342927B7A69A0023AF71 /* The Bartender.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +294,9 @@
 				Base,
 			);
 			mainGroup = 46AC342027B7A69A0023AF71;
+			packageReferences = (
+				4661994527C024D4001490B6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 46AC342A27B7A69A0023AF71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46AC343427B7A69D0023AF71 /* Preview Assets.xcassets in Resources */,
+				4661994927C0250A001490B6 /* GoogleService-Info.plist in Resources */,
 				46AC343127B7A69D0023AF71 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +324,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4661994F27C03E06001490B6 /* AuthTextField.swift in Sources */,
+				46A790DA27C64671003C654A /* TextArea.swift in Sources */,
+				465C28B427BBA41F009455B6 /* IngredientModel.swift in Sources */,
+				465C28B827BBAFBE009455B6 /* DrinksListFromIngredientView.swift in Sources */,
+				465C28A627B91A95009455B6 /* SideMenuRow.swift in Sources */,
+				4661995D27C203BC001490B6 /* LogoHeaderView.swift in Sources */,
+				465C28B027BBA03F009455B6 /* IngredientView.swift in Sources */,
 				46AC342F27B7A69A0023AF71 /* ContentView.swift in Sources */,
+				46A790D627C64109003C654A /* UserModel.swift in Sources */,
+				46CA1A2127B7EB3300D51D3F /* InstructionView.swift in Sources */,
+				4661994B27C03765001490B6 /* LoginView.swift in Sources */,
+				46AC343B27B7A6E60023AF71 /* DrinkDetailView.swift in Sources */,
+				4661995327C0ECD3001490B6 /* RegisterView.swift in Sources */,
+				46A790DE27C64B27003C654A /* ReviewViewModel.swift in Sources */,
 				46AC342D27B7A69A0023AF71 /* The_BartenderApp.swift in Sources */,
+				465C28A227B91743009455B6 /* SideMenuView.swift in Sources */,
+				465C28A427B91764009455B6 /* SideMenuViewModel.swift in Sources */,
+				465C28B227BBA123009455B6 /* ItemCell.swift in Sources */,
+				46A790DC27C64867003C654A /* ReviewService.swift in Sources */,
+				4661995727C1F172001490B6 /* WelcomeView.swift in Sources */,
+				4661996127C20FC4001490B6 /* UserService.swift in Sources */,
+				465C289C27B8EDAE009455B6 /* Extension.swift in Sources */,
+				465C28A027B915A0009455B6 /* DrinkCellCarousel.swift in Sources */,
+				465C289627B834B9009455B6 /* DashboardView.swift in Sources */,
+				46A790D827C64537003C654A /* AddReviewView.swift in Sources */,
+				46AC343D27B7B4520023AF71 /* DrinkViewModel.swift in Sources */,
+				46CA1A1D27B7EAED00D51D3F /* IngredientSectionView.swift in Sources */,
+				4661996527C4CAF8001490B6 /* ReviewList.swift in Sources */,
+				46CA1A1A27B7D92E00D51D3F /* DrinkService.swift in Sources */,
+				4661996327C211B2001490B6 /* AuthViewModel.swift in Sources */,
+				465C28A827BA26EA009455B6 /* SearchDrinkView.swift in Sources */,
+				4661994D27C03893001490B6 /* RoundedShape.swift in Sources */,
+				4661995927C1F2BE001490B6 /* RecipeView.swift in Sources */,
+				46AC344327B7C2890023AF71 /* FilterModel.swift in Sources */,
+				4661995B27C1F6DB001490B6 /* EnjoyView.swift in Sources */,
+				4661996727C4DCCE001490B6 /* RegisterSheetView.swift in Sources */,
+				46CA1A1F27B7EB1400D51D3F /* DrinkImageView.swift in Sources */,
+				46AC344527B7CF910023AF71 /* HeaderView.swift in Sources */,
+				46CA1A1827B7D73500D51D3F /* DrinkDetailModel.swift in Sources */,
+				4661995527C1EB18001490B6 /* WelcomePageView.swift in Sources */,
+				46A790E027C64B64003C654A /* ReviewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,16 +493,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 22.02.13.2;
 				DEVELOPMENT_ASSET_PATHS = "\"The Bartender/Preview Content\"";
 				DEVELOPMENT_TEAM = G287DPRRHY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The-Bartender-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,16 +524,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 22.02.13.2;
 				DEVELOPMENT_ASSET_PATHS = "\"The Bartender/Preview Content\"";
 				DEVELOPMENT_TEAM = G287DPRRHY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The-Bartender-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +545,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +571,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4661994527C024D4001490B6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4661994627C024D4001490B6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4661994527C024D4001490B6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46AC342127B7A69A0023AF71 /* Project object */;
 }
